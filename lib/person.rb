@@ -8,6 +8,6 @@ class Person
                   :wrist_size, :glove_size, :pant_length, :pant_width}
 
     attributes.each {|key, value| self.send(("#{key}="), value)}
-    bindin
+    binding.pry
   end
 end
